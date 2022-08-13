@@ -1,7 +1,12 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+container{
     width: 1440px;
     max-width: 100%;
-    min-height: 400px;
     margin: 0 auto;
 }
 .contaner1{
@@ -62,9 +67,9 @@ body{
 }
 
 .mobile{
-    width: 537px;
-    height: 45px;
-    padding-left: 10px;
+    width: 600px;
+    height: 150px;
+    padding-right: 60px;
     padding-top: 80px;
     font-family: 'Poppins';
     font-style: normal;
@@ -87,6 +92,7 @@ body{
     text-align: center;
     color: #4E4E4E;
     opacity: 0.65;
+    padding-right: 20px;
 }
 label{
     width: 400px;

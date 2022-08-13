@@ -1,11 +1,17 @@
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+container{
     width: 1440px;
     max-width: 100%;
-    min-height: 400px;
     margin: 0 auto;
 }
 .contaner1{
     background-color: rgba(86, 172, 224, 0.21);
+    width: 1440px;
 }
 .phonelogo{
     padding-left: 70px;
@@ -149,14 +155,13 @@ h2{
 }
 .contaner2{
     width: 1000px;
-    height: 380px;
+    height: 480px;
     max-width: 100%;
     min-height: 400px;
     margin: 0 auto;
     /* border: 2px solid red; */
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     gap: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -238,6 +243,7 @@ input{
     color: #FFFFFF;
     text-align: center;
     background-color: #262626;
+    width: 1440px;
 }
 /* .features{
     display: flex;
